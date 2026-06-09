@@ -35,7 +35,7 @@ go get github.com/HaizakiKu/quic-ech
 ## Quick Start
 
 ```go
-provider, err := echgo.NewProvider(echgo.Config{
+provider, err := ech.NewProvider(ech.Config{
     PublicName: "cloudflare.com",
     KeyFile:    "/etc/myserver/ech.key",
 })
