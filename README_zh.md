@@ -1,6 +1,6 @@
 <div align="center">
 
-# go-quic-ech
+# quic-ech
 
 **两行代码，为 QUIC 服务端开启 ECH 支持。**
 
@@ -12,7 +12,7 @@
 
 ## 这是什么？
 
-`go-quic-ech` 为任何基于 **quic-go** 的服务端提供 [ECH（加密客户端握手）](https://datatracker.ietf.org/doc/draft-ietf-tls-esni/)支持。它封装了密钥生成、ECHConfig 序列化、自动轮换和 DNS 记录输出，开箱即用。
+`quic-ech` 为任何基于 **quic-go** 的服务端提供 [ECH（加密客户端握手）](https://datatracker.ietf.org/doc/draft-ietf-tls-esni/)支持。它封装了密钥生成、ECHConfig 序列化、自动轮换和 DNS 记录输出，开箱即用。
 
 ## 为什么需要 ECH？
 

@@ -1,6 +1,6 @@
 <div align="center">
 
-# go-quic-ech
+# quic-ech
 
 **Server-side ECH for QUIC — in 2 lines.**
 
@@ -13,7 +13,7 @@
 
 ## What is this?
 
-`go-quic-ech` adds [Encrypted Client Hello (ECH)](https://datatracker.ietf.org/doc/draft-ietf-tls-esni/) support to any **quic-go**-based server. It handles key generation, ECHConfig serialization, automatic rotation, and DNS record output.
+`quic-ech` adds [Encrypted Client Hello (ECH)](https://datatracker.ietf.org/doc/draft-ietf-tls-esni/) support to any **quic-go**-based server. It handles key generation, ECHConfig serialization, automatic rotation, and DNS record output.
 
 ## Why ECH?
 
