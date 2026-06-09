@@ -34,7 +34,7 @@ go get github.com/HaizakiKu/quic-ech
 ## 快速上手
 
 ```go
-provider, err := echgo.NewProvider(echgo.Config{
+provider, err := ech.NewProvider(ech.Config{
     PublicName: "cloudflare.com", // 外层 SNI，观察者看到的域名
     KeyFile:    "/etc/myserver/ech.key", // 重启后密钥持久化
 })
